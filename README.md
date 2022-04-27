@@ -1,4 +1,4 @@
-# Mini Hackathon Pré-StartSe Alunos Grupo-13
+# Mini Hackathon Pré-StartSe Alunos Grupo-36
 
 ### Hackathon não oficial Startse
 Este repositório é destinado ao projeto/desafio de mini hackathon organizado por alunos do programa StartSe como parte de um exercício para aprimoramento dos alunos.
