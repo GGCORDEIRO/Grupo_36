@@ -17,7 +17,7 @@
 <body>
     <div class="container">
     <!--Topo da Página-->
-    <header class="header">
+    <header class="header" id="myHeader">
         <div class="header-logo">
             <img src="#" alt="Header Logo">
         </div>
@@ -31,58 +31,62 @@
     </header>
 
     <!--Meio da Página-->
-    <main>
+    <main class="criadores">
         <section class="conteudo-criadores">
+            <div class="criadores-1">
             <div class="conteudo-imagem-geovane">
-                <img src="#" alt="Geovane">
+                <img style="width: 200px; border: solid 2px green; border-radius: 10px;" src="/src/imagens/Geovane.png" alt="Geovane">
             </div>
             <div class="conteudo-redes-geovane">
                 <a href="https://www.linkedin.com/in/geovane-dos-santos/"><img class="conteudo-logo-redes" src="/src/imagens/linkedin.png" alt=""></a>
                 <a href="https://github.com/GGCORDEIRO/"><img class="conteudo-logo-redes" src="/src/imagens/github.png" alt=""></a>
             </div>
             <div class="conteudo-imagem-gabriel">
-                <img src="#" alt="Gabriel">
+                <img style="width: 200px; border: solid 2px green; border-radius: 10px;" src="/src/imagens/Geovane.png" alt="Gabriel">
             </div>
             <div class="conteudo-redes-gabriel">
                 <a href="#"><img class="conteudo-logo-redes" src="/src/imagens/linkedin.png" alt=""></a>
                 <a href="#"><img class="conteudo-logo-redes" src="/src/imagens/github.png" alt=""></a>
             </div>
+            </div>
+            <div class="criadores-2">
             <div class="conteudo-imagem-magno">
-                <img src="#" alt="Magno">
+                <img style="width: 200px; border: solid 2px green; border-radius: 10px;" src="/src/imagens/Geovane.png" alt="Magno">
             </div>
             <div class="conteudo-redes-magno">
                 <a href="#"><img class="conteudo-logo-redes" src="/src/imagens/linkedin.png" alt=""></a>
                 <a href="#"><img class="conteudo-logo-redes" src="/src/imagens/github.png" alt=""></a>
             </div>
             <div class="conteudo-imagem-renato">
-                <img src="#" alt="Renato">
+                <img style="width: 200px; border: solid 2px green; border-radius: 10px;" src="/src/imagens/Geovane.png" alt="Renato">
             </div>
             <div class="conteudo-redes-renato">
                 <a href="#"><img class="conteudo-logo-redes" src="/src/imagens/linkedin.png" alt=""></a>
                 <a href="#"><img class="conteudo-logo-redes" src="/src/imagens/github.png" alt=""></a>
             </div>
+            </div>
         </section>
         <section class="conteudo-form-contato">
             <form action="">
-                <div class="box-form-nome">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" required="">
+                <div class="box-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="Nome completo" required="">
                 </div>
-                <div class="box-form-email">
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" required="">
+                <div class="box-form">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="@" required="">
                 </div>
-                <div class="box-form-whatsapp">
-                    <label for="whatsapp">Whatsapp</label>
-                    <input type="tel" id="whatsapp" required="">
+                <div class="box-form">
+                    <label for="whatsapp">Whatsapp:</label>
+                    <input type="tel" id="whatsapp" placeholder="(__) _____-____" required="">
                 </div>
-                <div class="box-form-assunto">
-                    <label for="assunto">Assunto</label>
-                    <input type="text" id="assunto" required="">
+                <div class="box-form">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" placeholder="?"required="">
                 </div>
-                <div class="box-form-mensagem">
-                    <label for="mensagem">Mensagem</label>
-                    <textarea id="mensagem" required=""></textarea>
+                <div class="box-form">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" placeholder="Digite sua mensagem" required=""></textarea>
                 </div>
             </form>
         </section>
