@@ -1,19 +1,28 @@
 body{
     background-color: #747474;
 }
-
 header{
+    background-color: aqua;
     position: fixed;
+    justify-content: center;
     border-top: 1px solid #333;
     top: 0;
     left: 0px;
     height: 70px;
     width: 100%;
     align-items: center;
-    background-color: greenyellow;
+    box-shadow: black 0em 1em 2em;
+}
+.header-logo{
+    margin-right: 350px;
+    background-color: #333;
+}
+.li-sobre{
+    margin: 30px;
+    background-color: #333;
 }
 main{
-    margin: 80px 0 60px 0;
+    margin: 90px 0 85px 0;
     padding: 10px;
     background-color: aliceblue;
 }
@@ -45,15 +54,27 @@ main{
 footer{
     position: fixed;
     border-top: 1px solid #333;
+    padding: 10px;
     bottom: 0;
     left: 0;
+    justify-content: center;
     height: 50px;
     width: 100%;
     align-items: center;
     background-color: aquamarine;
+    box-shadow: black 0em -1em 2em;
 }
-
-
+.footer-logo{
+    background-color: #333;
+}
+.footer-direitos{
+    background-color: #333;
+    margin-left: 250px;
+    margin-right: 200px;
+}
+.footer-rede{
+    background-color: #333;
+}
 
 
 /*Geral*/
@@ -86,7 +107,7 @@ a:hover{
     color:rgb(253, 253, 253);
     transition: 0.2s ease-in;
 }
-.conteudo-logo-redes{
+.conteudo-logo-redes, .footer-github, .footer-linkedin{
     width: 40px;
 }
 a:hover, .conteudo-logo-redes:hover, .footer-github:hover, .footer-linkedin:hover, .button-form-enviar:hover{
@@ -99,21 +120,19 @@ a:hover, .conteudo-logo-redes:hover, .footer-github:hover, .footer-linkedin:hove
     width: 10px;
     height: 10px;
     -webkit-border-radius: 16px;
-  }
-  
-  ::-webkit-scrollbar-track-piece {
+}
+::-webkit-scrollbar-track-piece {
     background-color: #ffffff;
     -webkit-border-radius: 3px;
-  }
-  
-  ::-webkit-scrollbar-thumb:vertical {
+} 
+::-webkit-scrollbar-thumb:vertical {
     height: 5px;
     background-color: #666;
     -webkit-border-radius: 3px;
-  }
+}
   
-  ::-webkit-scrollbar-thumb:horizontal {
+::-webkit-scrollbar-thumb:horizontal {
     width: 5px;
     background-color: #666;
     -webkit-border-radius: 3px;
-  }
+}
