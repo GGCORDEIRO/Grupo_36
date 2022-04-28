@@ -50,6 +50,7 @@ footer{
     text-align: center;
 }
 li{
+    margin: 5px;
     list-style: none;
 }
 header, ul, footer, .conteudo-criadores, .footer-rede{
