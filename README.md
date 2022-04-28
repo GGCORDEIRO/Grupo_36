@@ -1,7 +1,7 @@
 # Mini Hackathon Pré-StartSe Grupo-36
 
 ### Hackathon não oficial Startse
-Este repositório é destinado ao projeto/desafio de mini hackathon organizado por alunos do programa StartSe como parte de um exercício para aprimoramento dos alunos.
+Este repositório é destinado ao projeto/desafio de mini hackathon não oficial Pré-StartSe organizado por alunos como parte de um exercício para aprimoramento dos mesmos.
 
 # Squad
 Geovane Cordeiro <br>
