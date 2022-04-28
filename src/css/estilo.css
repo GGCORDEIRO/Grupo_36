@@ -3,22 +3,38 @@ body{
 }
 
 header{
+    border-top: 1px solid #333;
+    top: 0;
+    left: 0px;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
     background-color: greenyellow;
 }
 main{
+    position: relative;
+    padding: 10px;
+    top: 70px;
     background-color: aliceblue;
 }
 footer{
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
     background-color: aquamarine;
 }
-
-
-
-
 
 /*Geral*/
 li{
     list-style: none;
+}
+header, ul, footer{
+    display: flex;
 }
 a{
     color: black;
