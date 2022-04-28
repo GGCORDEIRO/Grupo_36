@@ -1,5 +1,5 @@
 body{
-    background-color: #747474;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header{
     background-color: aqua;
@@ -27,7 +27,6 @@ font-family:Georgia, 'Times New Roman', Times, serif;
 main{
     margin: 90px 0 85px 0;
     padding: 10px;
-    background-color: aliceblue;
 }
 .criadores-1, .criadores-2{
     margin: 50px;
@@ -42,7 +41,7 @@ main{
     margin: auto;
     width: 470px;
     border: solid 2px blue;
-    background-color: #333;
+    background-color: rgb(15, 104, 110);
     border-radius: 10px;
     padding: 15px;
 }
