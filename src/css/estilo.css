@@ -13,10 +13,12 @@ header{
     background-color: greenyellow;
 }
 main{
-    position: relative;
     padding: 10px;
-    top: 70px;
+    margin-top: 80px;
     background-color: aliceblue;
+}
+.conteudo-form-contato{
+    text-align: center;
 }
 footer{
     border-top: 1px solid #333;
@@ -29,11 +31,28 @@ footer{
     background-color: aquamarine;
 }
 
+
 /*Geral*/
+.conteudo-form-contato{
+    width: 370px;
+    border: solid 2px blue;
+    border-radius: 10px;
+    padding: 15px;
+}
+.box-form{
+    text-align: right;
+    margin-bottom: 10px;
+}
+#nome, #email, #whatsapp, #assunto, #mensagem{
+    border-radius: 4px;
+}
+.conteudo-redes-geovane, .conteudo-redes-gabriel, .conteudo-redes-magno, .conteudo-redes-renato{
+    text-align: center;
+}
 li{
     list-style: none;
 }
-header, ul, footer{
+header, ul, footer, .conteudo-criadores, .footer-rede{
     display: flex;
 }
 a{
