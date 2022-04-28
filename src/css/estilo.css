@@ -13,13 +13,16 @@ header{
     align-items: center;
     box-shadow: black 0em 1em 2em;
 }
+.nome-logo-header{
+font-size: 50px; 
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
 .header-logo{
     margin-right: 350px;
-    background-color: #333;
 }
 .li-sobre{
     margin: 30px;
-    background-color: #333;
+    font-size: 30px;
 }
 main{
     margin: 90px 0 85px 0;
@@ -28,11 +31,9 @@ main{
 }
 .criadores-1, .criadores-2{
     margin: 50px;
-    background-color: #333;
 }
 .conteudo-criadores{
     display: flex;
-    background-color: coral;
     justify-content: center;
     align-items: center;
 }
@@ -64,16 +65,19 @@ footer{
     background-color: aquamarine;
     box-shadow: black 0em -1em 2em;
 }
+.nome-logo-footer{
+    font-size: 30px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
 .footer-logo{
-    background-color: #333;
+
 }
 .footer-direitos{
-    background-color: #333;
     margin-left: 250px;
     margin-right: 200px;
 }
 .footer-rede{
-    background-color: #333;
+
 }
 
 
