@@ -1,0 +1,143 @@
+/*Inicio*/
+:root{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+  }
+  .container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1320px;
+    }
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+  }
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+  }
+  
+  .col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  
+  .col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  
+  .col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  
+  @media (max-width: 576px) {
+    .col {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .col {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    
+    .col-3 {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .col-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+    }
+  
+    .col-6 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .col-3 {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .col-xl-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+    }
+  
+    .col-xl-6 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .col-3 {
+      flex: 0 0 auto;
+      width: 25%;
+    }
+  
+    .col-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+    }
+  
+    .col-6 {
+      flex: 0 0 auto;
+      width: 50%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
