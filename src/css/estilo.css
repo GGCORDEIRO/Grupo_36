@@ -3,57 +3,79 @@ body{
 }
 
 header{
+    position: fixed;
     border-top: 1px solid #333;
     top: 0;
     left: 0px;
     height: 70px;
-    position: fixed;
     width: 100%;
     align-items: center;
     background-color: greenyellow;
 }
 main{
+    margin: 80px 0 60px 0;
     padding: 10px;
-    margin-top: 80px;
     background-color: aliceblue;
+}
+.criadores-1, .criadores-2{
+    margin: 50px;
+    background-color: #333;
+}
+.conteudo-criadores{
+    display: flex;
+    background-color: coral;
+    justify-content: center;
+    align-items: center;
 }
 .conteudo-form-contato{
     text-align: center;
+    margin: auto;
+    width: 470px;
+    border: solid 2px blue;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 15px;
+}
+.button-form-enviar{
+    border-radius: 5px;
+}
+.button-form-enviar:hover{
+    background-color: rgb(32, 151, 32);
 }
 footer{
+    position: fixed;
     border-top: 1px solid #333;
     bottom: 0;
     left: 0;
     height: 50px;
-    position: fixed;
     width: 100%;
     align-items: center;
     background-color: aquamarine;
 }
 
 
+
+
 /*Geral*/
-.conteudo-form-contato{
-    width: 370px;
-    border: solid 2px blue;
-    border-radius: 10px;
-    padding: 15px;
-}
 .box-form{
     text-align: right;
     margin-bottom: 10px;
 }
 #nome, #email, #whatsapp, #assunto, #mensagem{
-    border-radius: 4px;
-}
-.conteudo-redes-geovane, .conteudo-redes-gabriel, .conteudo-redes-magno, .conteudo-redes-renato{
     text-align: center;
+    border-radius: 4px;
+    margin-left: 10px;
+    width: 300px;
+}
+.conteudo-redes-geovane, .criadores-1, .criadores-2, .conteudo-redes-gabriel, .conteudo-redes-magno, .conteudo-redes-renato{
+    text-align: center;
+    margin: 40px;
 }
 li{
     margin: 5px;
     list-style: none;
 }
-header, ul, footer, .conteudo-criadores, .footer-rede{
+header, ul, footer, .footer-rede{
     display: flex;
 }
 a{
@@ -67,7 +89,7 @@ a:hover{
 .conteudo-logo-redes{
     width: 40px;
 }
-a:hover, .conteudo-logo-redes:hover, .footer-github:hover, .footer-linkedin:hover{
+a:hover, .conteudo-logo-redes:hover, .footer-github:hover, .footer-linkedin:hover, .button-form-enviar:hover{
     -webkit-transform: scale(1.3);
     -ms-transform: scale(1.3);
     transform: scale(1.3);
