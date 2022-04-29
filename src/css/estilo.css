@@ -14,6 +14,19 @@ header{
     box-shadow: black 0em 1em 2em;
     border-radius: 0 0 10px 10px;
 }
+header{
+    animation-name: fundo;
+    animation-duration: 1s;
+    animation-iteration-count:inherit;
+}
+@keyframes fundo {
+    0% {
+        transform: translateY(-120px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
 .nome-logo-header{
 font-size: 50px; 
 font-family:Georgia, 'Times New Roman', Times, serif;
@@ -42,7 +55,7 @@ main{
     margin: auto;
     width: 470px;
     border: solid 2px blue;
-    background-color: rgb(15, 104, 110);
+    background-color: rgb(68, 68, 68);
     border-radius: 10px;
     padding: 15px;
 }
@@ -62,9 +75,22 @@ footer{
     height: 50px;
     width: 100%;
     align-items: center;
-    background-color: aquamarine;
+    background-color: aqua;
     box-shadow: black 0em -1em 2em;
     border-radius: 10px 10px 0 0;
+}
+footer{
+    animation-name: fundo1;
+    animation-duration: 1s;
+    animation-iteration-count:inherit;
+}
+@keyframes fundo1 {
+    0% {
+        transform: translateY(120px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 .nome-logo-footer{
     font-size: 30px; 
