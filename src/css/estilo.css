@@ -12,6 +12,7 @@ header{
     width: 100%;
     align-items: center;
     box-shadow: black 0em 1em 2em;
+    border-radius: 0 0 10px 10px;
 }
 .nome-logo-header{
 font-size: 50px; 
@@ -63,6 +64,7 @@ footer{
     align-items: center;
     background-color: aquamarine;
     box-shadow: black 0em -1em 2em;
+    border-radius: 10px 10px 0 0;
 }
 .nome-logo-footer{
     font-size: 30px; 
