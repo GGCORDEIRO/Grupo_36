@@ -40,7 +40,7 @@ font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .li-sobre{
     margin: 30px;
-    font-size: 30px;
+    font-size: 25px;
 }
 main{
     margin: 90px 0 85px 0;
@@ -63,7 +63,7 @@ main{
     text-align: center;
     margin: auto;
     width: 470px;
-    border: solid 2px blue;
+    border: solid 2px rgb(32, 151, 32);
     background-color: rgb(68, 68, 68);
     border-radius: 10px;
     padding: 15px;
