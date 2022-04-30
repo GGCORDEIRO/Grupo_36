@@ -5,6 +5,25 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+
+html {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+footer {
+    margin-top: auto;
+}
+
+
+
 header{
     background-color: aqua;
     position: fixed;
@@ -78,7 +97,6 @@ main{
     background-color: rgb(32, 151, 32);
 }
 footer{
-    position: fixed;
     border-top: 1px solid #333;
     padding: 10px;
     bottom: 0;
