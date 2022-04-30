@@ -1,4 +1,8 @@
-/*Inicio*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 :root{
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -37,13 +41,10 @@
       max-width: 1320px;
     }
   }
-
   p{
     text-align: justify;
-    font-size: 18px;
+    font-size: 1.15rem;
   }
-
-
   .row {
     display: flex;
     flex-wrap: wrap;
