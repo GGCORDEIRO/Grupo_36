@@ -1,36 +1,21 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-}
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-html {
-    height: 100%;
-    min-height: 100%;
-}
-
-body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
 }
-
-footer {
-    margin-top: auto;
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+    min-height: 100%;
+    font-size: 1rem;
 }
-
-
-
 header{
     background-color: aqua;
     position: fixed;
     justify-content: center;
-    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
     top: 0;
-    left: 0px;
+    left: 0;
     height: 70px;
     width: 100%;
     align-items: center;
@@ -51,21 +36,25 @@ header{
     }
 }
 .nome-logo-header{
-font-size: 50px; 
-font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.12rem; 
 }
 .header-logo{
-    margin-right: 350px;
+    margin-right: 20%;
+    margin-left: -10%;
 }
 .li-sobre{
-    margin: 30px 0 0 30px;
-    font-size: 25px;
+    width: 100%;
+    margin: 10% 0 0 10%;
+    font-size: 1.56rem;
+}
+.header-text-nav{
+    width: 10%;
 }
 .img-tema{
     margin-top: -10px;
 }
 main{
-    margin: 90px 0 85px 0;
+    margin: 9% 0 8% 0;
     padding: 10px;
 }
 .conteudo-criadores{
@@ -77,7 +66,7 @@ main{
     margin: 50px;
 }
 .nome{
-    font-size: 25px;
+    font-size: 1.56rem;
     text-align: center;
     color: rgb(68, 68, 68);
 }
@@ -97,6 +86,7 @@ main{
     background-color: rgb(32, 151, 32);
 }
 footer{
+    margin-top: auto;
     border-top: 1px solid #333;
     padding: 10px;
     bottom: 0;
@@ -123,12 +113,10 @@ footer{
     }
 }
 .nome-logo-footer{
-    font-size: 30px; 
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.87rem; 
 }
 .footer-direitos{
-    margin-left: 250px;
-    margin-right: 200px;
+    margin: 0 15%;
 }
 
 
@@ -141,11 +129,11 @@ footer{
     text-align: center;
     border-radius: 4px;
     margin-left: 10px;
-    width: 300px;
+    width: 70%;
 }
 .conteudo-redes-geovane, .criadores-1, .criadores-2, .conteudo-redes-gabriel, .conteudo-redes-magno, .conteudo-redes-renato{
     text-align: center;
-    margin: 40px;
+    margin: 5%;
 }
 li{
     margin: 5px;
@@ -159,8 +147,54 @@ a{
     text-decoration: inherit;
 }
 .a-saiba-mais:hover{
-    color: green;
+    color: rgb(255, 255, 255);
     transition: 0.2s ease-in;
+}
+.a-saiba-mais{
+    width: 20%; 
+    position: relative; 
+    top: -100px; 
+    left: 80px;
+    background-color: aqua; 
+    padding: 10px 30px 10px 30px; 
+    text-align: center; 
+    font-size: 1.25rem; 
+    border-radius: 20px; 
+    display: block;
+    animation-name: edu;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes edu{
+    0% {
+        transform: translateY(10px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+.bord{
+    width: 200px; 
+    border: solid 3px green; 
+    border-radius: 10px; 
+    background-color: aquamarine;
+    animation-name: edu2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes edu2{
+    0% {
+        border-color: aqua;
+    }
+    50% {
+        border-color: rgb(0, 0, 0);
+    }
+    100% {
+        border-color: aqua;
+    }
 }
 a:hover{
     color:rgb(253, 253, 253);
