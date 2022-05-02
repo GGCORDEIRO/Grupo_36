@@ -40,7 +40,7 @@
         <main>
             <div class="div-conteudo">
                 <section class="conteudo-texto">
-                    <h1><span style="font-size: 3.12rem; color: green; font-family: Georgia, 'Times New Roman', Times, serif;">Educação</span> &nbsp; &nbsp; &nbsp; <span style="font-size: 1.87rem; color: rgb(211, 55, 55);">Financeira</span></h1>
+                    <h1><span style="font-size: 3.12rem; color: green; font-family: Georgia, 'Times New Roman', Times, serif;">Educação</span> &nbsp; &nbsp; &nbsp; <span style="font-size: 3.12rem; color: rgb(211, 55, 55);">Financeira</span></h1>
                     <br><br>
                     <h2 style="color: rgb(68, 68, 68); text-align: center;">Problema estatístico em relação as finanças dos brasileiros</h2>
                     <br>
