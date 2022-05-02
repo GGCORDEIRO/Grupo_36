@@ -72,6 +72,10 @@ main{
     margin: 9% 0 0 0;
     padding: 10px;
 }
+h1{
+    text-align: center;
+    width: 100%;
+}
 .div-conteudo{
     display: inline-flex; 
     margin-top: 10px;
