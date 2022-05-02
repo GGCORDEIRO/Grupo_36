@@ -3,15 +3,9 @@
   margin: 0;
   padding: 0;
 }
-:root{
-    --bs-gutter-x: 1.5rem;
-    --bs-gutter-y: 0;
-  }
 
   .container {
     width: 100%;
-    padding-right: var(--bs-gutter-x, 0.75rem);
-    padding-left: var(--bs-gutter-x, 0.75rem);
     margin-right: auto;
     margin-left: auto;
   }
@@ -48,18 +42,14 @@
   .row {
     display: flex;
     flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
-    margin-right: calc(-0.5 * var(--bs-gutter-x));
-    margin-left: calc(-0.5 * var(--bs-gutter-x));
+
   }
 
   .row > * {
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * 0.5);
-    padding-left: calc(var(--bs-gutter-x) * 0.5);
-    margin-top: var(--bs-gutter-y);
+
   }
   
   .col-3 {
@@ -82,6 +72,118 @@
       flex: 0 0 auto;
       width: 100%;
     }
+    footer{
+      position: fixed;
+    }
+    .conteudo-imagem-principal{
+      position: absolute;
+      margin-left: 15px;
+      margin-top: -530px;
+    }
+    .img-principal{
+      width: 350px;
+    }
+    main{
+      font-size: 1rem;
+      margin: 19% 0 28% 0;
+    }
+    figcaption{
+      font-size: 10px;
+    }
+    .a-saiba-mais{
+      width: 50%; 
+      top: 20px; 
+      left: 90px;
+  }
+  .div-conteudo{
+    font-size: 1rem;
+    display: block; 
+    margin-top: 20px;
+}
+.conteudo-texto{
+  width: 375px;
+  font-size: 0.8rem;
+}
+h1{
+  width: 400px;
+  text-align: center;
+  margin-bottom: 280px;
+}
+  iframe{
+    width: 385px; 
+    height: 200px; 
+    position: relative;
+    top: 10px;
+    left: 0px;
+    display: block;
+    border: solid 1px aqua;
+    border-radius: 5px;
+}
+.li-sobre{
+  position: relative;
+  top: -35px;
+  left: -15px;
+}
+.ul-sobre{
+    flex-direction: column;
+    display: none;
+    background-color: aqua;
+    width: 250px;
+    height: 170px;
+    margin-top: 210px;
+    margin-left: -15px;
+    border-radius: 0 0 20px 0;
+}
+.header-text-nav{
+  position: relative;
+  margin-left: -320px;
+  margin-right: 260px;
+}
+.header-text-nav:hover .ul-sobre{
+  display: block;
+}
+.fechar:hover .ul-sobre{
+  display: none;
+}
+.header-cel{
+  display: block;
+}
+.header-logo{
+  margin: 0;
+}
+.fechar{
+  display: block;
+  width: 55px;
+  font-size: 13px;
+  position: relative;
+  top: -40px;
+  left: 15px;
+}
+footer{
+  font-size: 0.8rem;
+}
+.footer-logo{
+  width: 60px;
+}
+.nome-logo-footer{
+  position: relative;
+  font-size: 12px;
+  text-decoration: underline 5px white;
+  left: -10px;
+}
+.footer-direitos{
+  margin: 0;
+  font-size: 10px;
+  text-align: center;
+}
+.contato{
+  display: none;
+}
+.footer-linkedin{
+  position: relative;
+  width: 20px;
+  right: -10px;
+}
   }
   
   @media (max-width: 768px) {
