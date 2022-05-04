@@ -120,7 +120,7 @@ input{
 .conteudo-form-contato{
     position: relative;
     text-align: center;
-    left: 400px;
+    margin: auto;
     width: 500px;
     border: solid 2px var(--base-color);
     background-color: var(--base-color-second);
@@ -294,8 +294,4 @@ a:hover, .conteudo-logo-redes:hover, .footer-github:hover, .footer-linkedin:hove
 ::-webkit-scrollbar-thumb:horizontal, ::-webkit-scrollbar-thumb:vertical{
     background-color: var(--base-color-second);
     -webkit-border-radius: 3px; 
-}
-
-.nav-cel{
-    display: none;
 }
