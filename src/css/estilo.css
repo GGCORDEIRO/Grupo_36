@@ -174,8 +174,19 @@ footer{
 .footer-direitos{
     margin: 0 15%;
 }
-
-
+#ass{
+    position: relative; 
+    left: -195px;
+}
+#arquivo{
+    border-radius: 10px; 
+    background-color: aqua; 
+    margin: 0 -15px 0 15px;
+}
+#arqui{
+    position: relative; 
+    left: -42px;
+}
 
 .box-form{
     position: relative;
