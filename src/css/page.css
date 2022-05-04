@@ -72,9 +72,6 @@
       flex: 0 0 auto;
       width: 100%;
     }
-    footer{
-      position: fixed;
-    }
     .conteudo-imagem-principal{
       position: absolute;
       margin-left: 15px;
@@ -125,16 +122,17 @@ h1{
   position: relative;
   top: -35px;
   left: -15px;
+  margin-top: 20px;
 }
 .ul-sobre{
     flex-direction: column;
     display: none;
     background-color: aqua;
     width: 250px;
-    height: 170px;
-    margin-top: 210px;
+    height: 150px;
+    margin-top: 190px;
     margin-left: -15px;
-    border-radius: 0 0 20px 0;
+    border-radius: 0 0 20px 20px;
 }
 .header-text-nav{
   position: relative;
@@ -163,6 +161,7 @@ h1{
 }
 footer{
   font-size: 0.7rem;
+  position: fixed;
 }
 .footer-logo{
   width: 70px;
@@ -186,8 +185,16 @@ footer{
   width: 20px;
   right: 10px;
 }
-
-  }
+.conteudo-form-contato{
+  margin-bottom: -100px;
+}
+.conteudo-logo-redes, .footer-github, .footer-linkedin{
+  width: 30px;
+}
+.criadores-1, .criadores-2{
+  margin:10px;
+}
+}
 
   @media (min-width: 378px) and (max-width: 576px) {
     .col {
@@ -196,6 +203,7 @@ footer{
     }
     footer{
       position: fixed;
+      font-size: 0.8rem;
     }
     .conteudo-imagem-principal{
       position: absolute;
@@ -247,16 +255,17 @@ h1{
   position: relative;
   top: -35px;
   left: -15px;
+  margin-top: 20px;
 }
 .ul-sobre{
     flex-direction: column;
     display: none;
     background-color: aqua;
     width: 250px;
-    height: 170px;
-    margin-top: 210px;
-    margin-left: -15px;
-    border-radius: 0 0 20px 0;
+    height: 150px;
+    margin-top: 190px;
+    margin-left: -45px;
+    border-radius: 0 0 20px 20px;
 }
 .header-text-nav{
   position: relative;
@@ -283,9 +292,6 @@ h1{
   top: -40px;
   left: 15px;
 }
-footer{
-  font-size: 0.8rem;
-}
 .footer-logo{
   width: 60px;
 }
@@ -307,6 +313,9 @@ footer{
   position: relative;
   width: 20px;
   right: -10px;
+}
+.conteudo-form-contato{
+  margin-bottom: -100px;
 }
 }
   
@@ -317,14 +326,16 @@ footer{
     }
     footer{
       position: fixed;
+      font-size: 0.8rem;
     }
     .conteudo-imagem-principal{
       position: absolute;
       margin-left: 15px;
-      margin-top: -530px;
+      margin-top: -600px;
     }
     .img-principal{
-      width: 380px;
+      margin-left: 0px;
+      width: 500px;
     }
     main{
       font-size: 1rem;
@@ -335,29 +346,31 @@ footer{
     }
     .a-saiba-mais{
       width: 60%; 
-      top: 20px; 
-      left: 80px;
+      top: 30px; 
+      left: 110px;
   }
   .div-conteudo{
     font-size: 1rem;
     display: block; 
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .conteudo-texto{
-  width: 375px;
+  width: 545px;
+  margin-left: 5px;
   font-size: 0.8rem;
 }
 h1{
-  width: 400px;
+  width: 450px;
+  margin-left: 40px;
   text-align: center;
-  margin-bottom: 280px;
+  margin-bottom: 380px;
 }
   iframe{
-    width: 385px; 
-    height: 200px; 
+    width: 545px; 
+    height: 350px; 
     position: relative;
     top: 10px;
-    left: 0px;
+    left: 7px;
     display: block;
     border: solid 1px aqua;
     border-radius: 5px;
@@ -366,16 +379,17 @@ h1{
   position: relative;
   top: -35px;
   left: -15px;
+  margin-top: 20px;
 }
 .ul-sobre{
     flex-direction: column;
     display: none;
     background-color: aqua;
     width: 250px;
-    height: 170px;
-    margin-top: 210px;
-    margin-left: -15px;
-    border-radius: 0 0 20px 0;
+    height: 150px;
+    margin-top: 190px;
+    margin-left: -45px;
+    border-radius: 0 0 20px 20px;
 }
 .header-text-nav{
   position: relative;
@@ -402,9 +416,6 @@ h1{
   top: -40px;
   left: 15px;
 }
-footer{
-  font-size: 0.8rem;
-}
 .footer-logo{
   width: 60px;
 }
@@ -427,7 +438,10 @@ footer{
   width: 20px;
   right: -10px;
 }
-  }
+.conteudo-form-contato{
+  margin-bottom: -100px;
+}
+}
   @media (min-width: 768px) and (max-width: 992px) {
     
     .col-3 {
@@ -446,6 +460,7 @@ footer{
     }
     footer{
       position: fixed;
+      font-size: 0.8rem;
     }
     .conteudo-imagem-principal{
       position: absolute;
@@ -464,7 +479,7 @@ footer{
     .a-saiba-mais{
       width: 40%; 
       top: 50px; 
-      left: 220px;
+      left: 200px;
   }
   .div-conteudo{
     font-size: 1rem;
@@ -479,7 +494,7 @@ footer{
 h1{
   width: 450px;
   text-align: center;
-  margin-left: 100px;
+  margin-left: 120px;
   margin-bottom: 430px;
 }
   iframe{
@@ -493,20 +508,20 @@ h1{
     border-radius: 5px;
 }
 .li-sobre{
-  margin: 15px;
   position: relative;
   top: -35px;
   left: -15px;
+  margin-top: 20px;
 }
 .ul-sobre{
     flex-direction: column;
     display: none;
     background-color: aqua;
     width: 250px;
-    height: 170px;
-    margin-top: 210px;
-    margin-left: -15px;
-    border-radius: 0 0 20px 0;
+    height: 150px;
+    margin-top: 190px;
+    margin-left: -95px;
+    border-radius: 0 0 20px 20px;
 }
 .header-text-nav{
   position: relative;
@@ -533,9 +548,6 @@ h1{
   top: -40px;
   left: 15px;
 }
-footer{
-  font-size: 0.8rem;
-}
 .footer-logo{
   width: 60px;
 }
@@ -558,6 +570,9 @@ footer{
   width: 20px;
   right: -10px;
 }
+.conteudo-form-contato{
+  margin-bottom: -100px;
+}
   }
   @media (min-width: 992px) and (max-width: 1200px) {
     .col-3 {
@@ -573,6 +588,13 @@ footer{
     .col-xl-6 {
       flex: 0 0 auto;
       width: 50%;
+    }
+    .conteudo-imagem-principal{
+      margin-left: 30px;
+      margin-top: 130px;
+    }
+    .img-principal{
+      width: 500px;
     }
   }
   
