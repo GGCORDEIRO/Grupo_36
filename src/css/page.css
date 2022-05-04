@@ -194,6 +194,25 @@ footer{
 .criadores-1, .criadores-2{
   margin:10px;
 }
+#arquivo{
+  border-radius: 10px; 
+  background-color: aqua; 
+  margin: 0 -30px 0 0px;
+  padding: 10px;
+  width: 140px;
+}
+#ass{
+  position: relative; 
+  left: 0px;
+}
+.conteudo-form-contato{
+  font-size: 0.8rem;
+  margin-bottom: -100px;
+  width: 350px;
+}
+.bord{
+  width: 150px;
+}
 }
 
   @media (min-width: 378px) and (max-width: 576px) {
@@ -301,6 +320,17 @@ h1{
   text-decoration: underline 5px white;
   left: -10px;
 }
+#arquivo{
+  border-radius: 10px; 
+  background-color: aqua; 
+  margin: 0 -30px 0 0px;
+  padding: 10px;
+  width: 140px;
+}
+#ass{
+  position: relative; 
+  left: 0px;
+}
 .footer-direitos{
   margin: 0;
   font-size: 10px;
@@ -316,6 +346,10 @@ h1{
 }
 .conteudo-form-contato{
   margin-bottom: -100px;
+  width: 370px;
+}
+.bord{
+  width: 150px;
 }
 }
   
@@ -440,6 +474,7 @@ h1{
 }
 .conteudo-form-contato{
   margin-bottom: -100px;
+  width: 485px;
 }
 }
   @media (min-width: 768px) and (max-width: 992px) {
