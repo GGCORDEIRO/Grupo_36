@@ -97,7 +97,7 @@
                         <input type="radio" name="subscribe" id="subscribe" checked> Sim
                         <input type="radio" name="subscribe" id="subscribe"> Não
                     </div>
-                    <div class="box-form" style="position: relative; left: -195px;">
+                    <div class="box-form" id="ass">
                         <label for="assunto">Assunto:</label>
                         <select style="width: 150px;" type="text" list="sugestoes" id="assunto" required="">
                             <option disabled>Selecione uma opção</option>
@@ -108,9 +108,9 @@
                             <option>Outros</option>
                         </select>
                     </div>
-                    <div class="box-form" style="position: relative; left: -42px;">
+                    <div class="box-form" id="arqui">
                         <label for="arquivo">Arquivo:</label>
-                        <input style="border-radius: 10px; background-color: aqua; margin: 0 -15px 0 15px;" type="file" id="arquivo" method="post" enctype="multipart/form-data" accept=".pdf, .png, .jpeg" multiple>
+                        <input type="file" id="arquivo" method="post" enctype="multipart/form-data" accept=".pdf, .png, .jpeg" multiple>
                     </div>
                     <div class="box-form">
                         <label for="mensagem">Mensagem:</label>
