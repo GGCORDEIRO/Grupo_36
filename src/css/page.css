@@ -67,7 +67,129 @@
     width: 50%;
   }
   
-  @media (max-width: 576px) {
+  @media (max-width: 378px) {
+    .col {
+      flex: 0 0 auto;
+      width: 100%;
+    }
+    footer{
+      position: fixed;
+    }
+    .conteudo-imagem-principal{
+      position: absolute;
+      margin-left: 15px;
+      margin-top: -520px;
+    }
+    .img-principal{
+      margin-left:10px;
+      width: 300px;
+    }
+    main{
+      font-size: 1rem;
+      margin: 19% 0 28% 0;
+    }
+    figcaption{
+      font-size: 10px;
+    }
+    .a-saiba-mais{
+      width: 180px; 
+      top: 15px; 
+      left: 90px;
+  }
+  .div-conteudo{
+    font-size: 1rem;
+    display: block; 
+    margin-top: 30px;
+}
+.conteudo-texto{
+  width: 350px;
+  margin-left: 0px;
+  font-size: 0.8rem;
+}
+h1{
+  width: 380px;
+  text-align: center;
+  margin-bottom: 220px;
+}
+  iframe{
+    width: 345px; 
+    height: 200px; 
+    position: relative;
+    top: 10px;
+    left: 0px;
+    display: block;
+    border: solid 1px aqua;
+    border-radius: 5px;
+}
+.li-sobre{
+  position: relative;
+  top: -35px;
+  left: -15px;
+}
+.ul-sobre{
+    flex-direction: column;
+    display: none;
+    background-color: aqua;
+    width: 250px;
+    height: 170px;
+    margin-top: 210px;
+    margin-left: -15px;
+    border-radius: 0 0 20px 0;
+}
+.header-text-nav{
+  position: relative;
+  margin-left: -320px;
+  margin-right: 260px;
+}
+.header-text-nav:hover .ul-sobre{
+  display: block;
+}
+.fechar:hover .ul-sobre{
+  display: none;
+}
+.header-cel{
+  display: block;
+}
+.header-logo{
+  margin: 0;
+}
+.fechar{
+  display: block;
+  width: 55px;
+  font-size: 13px;
+  position: relative;
+  top: -40px;
+  left: 15px;
+}
+footer{
+  font-size: 0.7rem;
+}
+.footer-logo{
+  width: 70px;
+}
+.nome-logo-footer{
+  position: relative;
+  font-size: 11px;
+  text-decoration: underline 3px white;
+  left: -5px;
+}
+.footer-direitos{
+  margin: 0;
+  font-size: 10px;
+  text-align: center;
+}
+.contato{
+  display: none;
+}
+.footer-linkedin{
+  position: relative;
+  width: 20px;
+  right: 10px;
+}
+
+  }
+
+  @media (min-width: 378px) and (max-width: 576px) {
     .col {
       flex: 0 0 auto;
       width: 100%;
@@ -81,7 +203,8 @@
       margin-top: -530px;
     }
     .img-principal{
-      width: 350px;
+      margin-left: 30px;
+      width: 400px;
     }
     main{
       font-size: 1rem;
@@ -92,29 +215,30 @@
     }
     .a-saiba-mais{
       width: 60%; 
-      top: 20px; 
-      left: 80px;
+      top: 30px; 
+      left: 100px;
   }
   .div-conteudo{
     font-size: 1rem;
     display: block; 
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .conteudo-texto{
-  width: 375px;
+  width: 445px;
+  margin-left: 5px;
   font-size: 0.8rem;
 }
 h1{
-  width: 400px;
+  width: 450px;
   text-align: center;
   margin-bottom: 280px;
 }
   iframe{
-    width: 385px; 
-    height: 200px; 
+    width: 445px; 
+    height: 300px; 
     position: relative;
     top: 10px;
-    left: 0px;
+    left: 7px;
     display: block;
     border: solid 1px aqua;
     border-radius: 5px;
@@ -184,9 +308,9 @@ footer{
   width: 20px;
   right: -10px;
 }
-  }
+}
   
-  @media (max-width: 768px) {
+  @media (min-width: 576px) and (max-width: 768px) {
     .col {
       flex: 0 0 auto;
       width: 100%;
@@ -200,7 +324,7 @@ footer{
       margin-top: -530px;
     }
     .img-principal{
-      width: 350px;
+      width: 380px;
     }
     main{
       font-size: 1rem;
@@ -325,11 +449,10 @@ footer{
     }
     .conteudo-imagem-principal{
       position: absolute;
-      margin-left: 15px;
-      margin-top: -530px;
+      margin: -600px 0 0 45px;
     }
     .img-principal{
-      width: 350px;
+      width: 600px;
     }
     main{
       font-size: 1rem;
@@ -339,9 +462,9 @@ footer{
       font-size: 10px;
     }
     .a-saiba-mais{
-      width: 60%; 
-      top: 20px; 
-      left: 80px;
+      width: 40%; 
+      top: 50px; 
+      left: 220px;
   }
   .div-conteudo{
     font-size: 1rem;
@@ -349,20 +472,22 @@ footer{
     margin-top: 20px;
 }
 .conteudo-texto{
-  width: 375px;
+  margin-top: -80px;
+  width: 675px;
   font-size: 0.8rem;
 }
 h1{
-  width: 400px;
+  width: 450px;
   text-align: center;
-  margin-bottom: 280px;
+  margin-left: 100px;
+  margin-bottom: 430px;
 }
   iframe{
-    width: 385px; 
-    height: 200px; 
+    width: 600px; 
+    height: 350px; 
     position: relative;
-    top: 10px;
-    left: 0px;
+    top: 30px;
+    left: 40px;
     display: block;
     border: solid 1px aqua;
     border-radius: 5px;
