@@ -115,17 +115,21 @@ iframe{
     text-align: center;
     color: var(--base-color-second);
 }
+input{
+    padding: 5px;
+}
 .conteudo-form-contato{
     text-align: center;
     margin: auto;
-    width: 470px;
+    width: 500px;
     border: solid 2px var(--base-color);
     background-color: var(--base-color-second);
     border-radius: 10px;
     padding: 15px;
 }
 .button-form-enviar{
-    padding: 2px 5px 2px 5px;
+    margin-right: 20px;
+    padding: 4px 6px 4px 6px;
     border-radius: 5px;
     border: solid 2px var(--base-color);
 }
@@ -172,7 +176,7 @@ footer{
 
 .box-form{
     text-align: right;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 #nome, #email, #whatsapp, #assunto, #mensagem{
     text-align: center;
