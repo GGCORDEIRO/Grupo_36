@@ -78,7 +78,7 @@
             </section>
             <section class="conteudo-form-contato">
                 <form action="" method="GET" class="form-form">
-                    <h1 style="margin-bottom: 10px; font-size: 2rem;">Contato</h1>
+                    <h1 style="margin-bottom: 10px; font-size: 2rem; color: aqua;">Contato</h1>
                     <p style="text-align: center; margin-bottom: 10px;">Caso tenha dúvidas a respeito do nosso projeto social, entre em contato conosco!</p>
                     <div class="box-form">
                         <label for="nome">Nome:</label>
@@ -94,28 +94,30 @@
                     </div>
                     <div class="box-form">
                         <label for="subscribe">Aceita contato pelo Whatsapp ?</label>
-                        <input type="checkbox" name="subscribe" id="subscribe" checked>
+                        <input type="radio" name="subscribe" id="subscribe" checked> Sim
+                        <input type="radio" name="subscribe" id="subscribe"> Não
                     </div>
-                    <div class="box-form">
+                    <div class="box-form" style="position: relative; left: -195px;">
                         <label for="assunto">Assunto:</label>
-                        <input type="text" list="sugestoes" id="assunto" placeholder="Escolha uma opção" required="">
-                        <datalist id="sugestoes">
+                        <select style="width: 150px;" type="text" list="sugestoes" id="assunto" required="">
+                            <option disabled>Selecione uma opção</option>
                             <option>Projetos</option>
                             <option>Sugestões</option>
                             <option>Dúvidas</option>
                             <option>Reclamações</option>
-                        </datalist>
+                            <option>Outros</option>
+                        </select>
                     </div>
-                    <div class="box-form">
+                    <div class="box-form" style="position: relative; left: -42px;">
                         <label for="arquivo">Arquivo:</label>
-                        <input type="file" id="arquivo" method="post" enctype="multipart/form-data" accept=".pdf, .png, .jpeg" multiple>
+                        <input style="border-radius: 10px; background-color: aqua; margin: 0 -15px 0 15px;" type="file" id="arquivo" method="post" enctype="multipart/form-data" accept=".pdf, .png, .jpeg" multiple>
                     </div>
                     <div class="box-form">
                         <label for="mensagem">Mensagem:</label>
-                        <textarea id="mensagem" placeholder="Digite sua mensagem" rows="10" spellcheck="true" required="" title="Preencha este campo"></textarea>
+                        <textarea id="mensagem" placeholder="Digite sua mensagem" rows="10" required="" title="Preencha este campo"></textarea>
                     </div>
                     <div class="form-enviar">
-                        <a href="#" ><button class="button-form-enviar" title="Enviar" type="submit">Enviar</button></a>
+                        <a href="#" ><button class="button-form-enviar" onclick="alert('Estamos em Manutenção')" title="Enviar" type="submit">Enviar</button></a>
                         <a href="#" ><button class="button-form-enviar" title="Enviar" type="reset">Limpar</button></a>
                     </div>
                 </form>
