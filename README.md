@@ -22,7 +22,8 @@ Renato Teixeira <br>
 Educação financeira
 
 # Preview
-<img style="width: 60%;" src="https://github.com/GGCORDEIRO/Grupo_36/blob/main/src/imagens/Grupo-36.png" alt="Dinheiro Real">
+<img style="width: 50%;" src="https://github.com/GGCORDEIRO/Grupo_36/blob/main/src/imagens/Grupo-36.png" alt="Grupo - 36">
+<img style="width: 20%;" src="https://github.com/GGCORDEIRO/Grupo_36/blob/main/src/imagens/smart.png" alt="Grupo - 36 SMART">
 
 # Autores
 Geovane Cordeiro <br>
