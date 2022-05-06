@@ -22,6 +22,7 @@ Renato Teixeira <br>
 Educação financeira
 
 # Preview
+<img src="/src/imagens/grupo-36.jpg" alt="Dinheiro Real">
 
 # Autores
 Geovane Cordeiro <br>
