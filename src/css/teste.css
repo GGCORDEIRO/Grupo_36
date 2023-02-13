@@ -158,7 +158,7 @@ footer {
   position: fixed;
   margin-top: auto;
   border-top: 1px solid var(--base-color-second);
-  padding: 10px;
+  padding: 0px;
   bottom: 0;
   left: 0;
   justify-content: center;
