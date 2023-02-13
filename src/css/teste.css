@@ -6,6 +6,16 @@
   --base-black: black;
   --base-white: white;
 }
+html {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 100%;
+  min-height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
 .headertop{
   position: block;
   border-bottom: 1px solid var(--base-color-second);
