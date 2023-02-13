@@ -23,6 +23,9 @@ body {
   width: 100%;
   align-items: center;
 }
+.ul-sobre1{
+  width: 10%;
+}
 header {
   z-index: 1;
   background-color: var(--base-color);
