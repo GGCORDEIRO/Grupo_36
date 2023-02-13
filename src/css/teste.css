@@ -19,8 +19,6 @@ body {
 .sub_top{
   position: block;
   background-color: #666;
-  top: 0;
-  left: 0;
   height: 20px;
   width: 100%;
   align-items: center;
