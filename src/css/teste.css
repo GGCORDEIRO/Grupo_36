@@ -18,7 +18,6 @@ body {
 }
 .headertop{
   position: block;
-  border-bottom: 1px solid var(--base-color-second);
   top: 0;
   left: 0;
   height: 20px;
