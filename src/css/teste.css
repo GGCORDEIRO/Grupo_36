@@ -69,6 +69,42 @@ h1 {
   text-align: center;
   width: 100%;
 }
+.div-conteudo {
+  display: inline-flex;
+  margin-top: 10px;
+}
+.conteudo-imagem-principal {
+  margin-left: 200px;
+  margin-top: 50px;
+  text-align: right;
+}
+.conteudo-texto1 {
+  width: 80%;
+  margin-inline: auto;
+}
+.maintema {
+  margin-bottom: 100px;
+}
+.conteudo-texto1 h2 {
+  font-size: 0.7rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.conteudo-texto1 h1,
+h3 {
+  text-decoration: underline 2px aqua;
+}
+.conteudo-texto1 h1 {
+  width: 100%;
+  font-size: 1.5rem;
+}
+.conteudo-texto1 > img {
+  margin-top: 10px;
+}
+.img-principal {
+  width: 600px;
+  justify-content: right;
+}
 input {
   padding: 5px;
 }
