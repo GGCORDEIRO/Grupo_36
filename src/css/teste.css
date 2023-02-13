@@ -22,7 +22,6 @@ body {
   height: 20px;
   width: 100%;
   align-items: center;
-  border-radius: 0 0 10px 10px;
 }
 header {
   z-index: 1;
