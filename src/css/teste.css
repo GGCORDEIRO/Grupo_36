@@ -36,7 +36,7 @@ body {
 }
 .ul-sobre1{
   width: 20%;
-  text-align: center;
+  justify-content: center;
   background-color: aquamarine;
 }
 .sub_top1{
