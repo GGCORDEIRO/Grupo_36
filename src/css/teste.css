@@ -56,19 +56,10 @@ header {
   margin-right: 10%;
   margin-left: -30%;
 }
-.header-cel {
-  display: none;
-}
-.fechar {
-  display: none;
-}
 .li-sobre {
   width: 100%;
   margin: 0 0 0 15%;
   font-size: 150%;
-}
-.header-text-nav {
-  width: 10%;
 }
 main {
   margin: 9% 0 0 0;
