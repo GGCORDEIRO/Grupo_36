@@ -17,7 +17,6 @@ body {
   min-height: 100%;
 }
 .headertop{
-  z-index: 1;
   position: fixed;
   justify-content: center;
   border-bottom: 1px solid var(--base-color-second);
