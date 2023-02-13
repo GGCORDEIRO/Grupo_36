@@ -18,10 +18,11 @@ body {
 }
 .headertop{
   z-index: 1;
-
   position: fixed;
   justify-content: center;
   border-bottom: 1px solid var(--base-color-second);
+  top: 0;
+  left: 0;
   height: 70px;
   width: 100%;
   align-items: center;
@@ -31,7 +32,7 @@ body {
 header {
   z-index: 1;
   background-color: var(--base-color);
-  position: block;
+  position: fixed;
   justify-content: center;
   border-bottom: 1px solid var(--base-color-second);
   top: 0;
