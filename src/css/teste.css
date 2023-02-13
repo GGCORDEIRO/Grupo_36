@@ -24,6 +24,7 @@ body {
 }
 .ul-sobre1{
   width: 10%;
+  background-color: aquamarine;
 }
 header {
   z-index: 1;
