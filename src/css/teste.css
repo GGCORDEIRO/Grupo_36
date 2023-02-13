@@ -20,7 +20,7 @@ body {
   position: fixed;
   justify-content: center;
   border-bottom: 1px solid var(--base-color-second);
-  height: 50px;
+  height: 30px;
   width: 100%;
   align-items: center;
   border-radius: 0 0 10px 10px;
