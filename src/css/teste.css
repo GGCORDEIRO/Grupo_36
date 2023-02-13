@@ -21,6 +21,19 @@ body {
   width: 100%;
   align-items: center;
 }
+.sub_top {
+  animation-name: sub_top;
+  animation-duration: 1s;
+  animation-iteration-count: inherit;
+}
+@keyframes sub_top {
+  0% {
+    transform: translateY(-120px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 .ul-sobre1{
   width: 10%;
   background-color: aquamarine;
