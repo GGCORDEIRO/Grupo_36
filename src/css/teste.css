@@ -26,6 +26,9 @@ body {
   width: 10%;
   background-color: aquamarine;
 }
+.sub_top1{
+  width: 100%;
+}
 header {
   z-index: 1;
   background-color: var(--base-color);
