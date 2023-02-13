@@ -56,13 +56,10 @@ header {
 .li-sobre {
   width: 100%;
   margin: 0 0 0 15%;
-  font-size: 1.56rem;
+  font-size: 1.50rem;
 }
 .header-text-nav {
   width: 10%;
-}
-.img-tema {
-  margin-top: -10px;
 }
 main {
   margin: 9% 0 0 0;
