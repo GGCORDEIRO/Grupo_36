@@ -21,7 +21,7 @@ body {
   border-bottom: 1px solid var(--base-color-second);
   top: 0;
   left: 0;
-  height: 30px;
+  height: 20px;
   width: 100%;
   align-items: center;
   border-radius: 0 0 10px 10px;
@@ -33,7 +33,7 @@ header {
   border-bottom: 1px solid var(--base-color-second);
   top: 0;
   left: 0;
-  height: 70px;
+  height: 100px;
   width: 100%;
   align-items: center;
   box-shadow: var(--base-black) 0em 1em 2em;
