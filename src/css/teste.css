@@ -16,6 +16,20 @@ body {
   flex-direction: column;
   min-height: 100%;
 }
+.headertop{
+  z-index: 1;
+  background-color: var(--base-color);
+  position: fixed;
+  justify-content: center;
+  border-bottom: 1px solid var(--base-color-second);
+  top: 0;
+  left: 0;
+  height: 70px;
+  width: 100%;
+  align-items: center;
+  box-shadow: var(--base-black) 0em 1em 2em;
+  border-radius: 0 0 10px 10px;
+}
 header {
   z-index: 1;
   background-color: var(--base-color);
