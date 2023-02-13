@@ -43,6 +43,10 @@ header {
     transform: translateY(0px);
   }
 }
+.header-logo {
+  margin-right: 20%;
+  margin-left: -10%;
+}
 .header-cel {
   display: none;
 }
