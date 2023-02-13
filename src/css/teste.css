@@ -19,7 +19,6 @@ body {
 .sub_top{
   position: block;
   background-color: #666;
-  height: 20px;
   width: 100%;
   align-items: center;
 }
@@ -34,7 +33,6 @@ header {
   top: 0;
   left: 0;
   height: 100px;
-  width: 100%;
   align-items: center;
   box-shadow: var(--base-black) 0em 1em 2em;
   border-radius: 0 0 10px 10px;
