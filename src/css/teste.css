@@ -28,6 +28,7 @@ body {
 }
 .sub_top1{
   width: 100%;
+  background-color: blueviolet;
 }
 header {
   z-index: 1;
