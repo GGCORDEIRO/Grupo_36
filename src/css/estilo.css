@@ -8,9 +8,7 @@
 }
 html {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  height: 100%;
-  min-height: 100%;
-  font-size: 1rem;
+
 }
 body {
   display: flex;
