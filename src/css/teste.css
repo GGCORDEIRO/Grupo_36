@@ -43,13 +43,6 @@ header {
     transform: translateY(0px);
   }
 }
-.nome-logo-header {
-  font-size: 3.12rem;
-}
-.header-logo {
-  margin-right: 20%;
-  margin-left: -10%;
-}
 .header-cel {
   display: none;
 }
