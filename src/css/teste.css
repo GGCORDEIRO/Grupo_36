@@ -32,7 +32,6 @@ body {
 header {
   z-index: 1;
   background-color: var(--base-color);
-  position: fixed;
   justify-content: center;
   border-bottom: 1px solid var(--base-color-second);
   top: 0;
