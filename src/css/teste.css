@@ -163,7 +163,7 @@ footer {
   left: 0;
   justify-content: center;
   height: 200px;
-
+  width: 100%;
   align-items: center;
   background-color: var(--base-color);
   box-shadow: var(--base-black) 0em -1em 2em;
