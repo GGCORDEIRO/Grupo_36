@@ -126,15 +126,8 @@ input {
   padding: 5px;
 }
 footer {
-  z-index: 1;
-  position: fixed;
-  margin-top: auto;
-  border-top: 1px solid var(--base-color-second);
-
   justify-content: center;
   height: 500px;
-  width: 100%;
-  align-items: center;
   background-color: var(--base-color);
   box-shadow: var(--base-black) 0em -1em 2em;
   border-radius: 10px 10px 0 0;
