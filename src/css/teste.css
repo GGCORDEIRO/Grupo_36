@@ -1,5 +1,6 @@
 *{
-  padding: 0;
+  margin: 0;
+  padding: 10px;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -78,7 +79,7 @@ header {
   font-size: 150%;
 }
 main {
-
+  height: 110%;
 }
 h1 {
   text-align: center;
