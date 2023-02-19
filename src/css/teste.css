@@ -83,6 +83,10 @@ header {
 main {
   padding: 3%;
 }
+.imgddns{
+  width: 50%;
+  height: 40%;
+}
 h1 {
   text-align: center;
   width: 100%;
