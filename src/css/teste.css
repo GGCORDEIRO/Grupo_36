@@ -18,9 +18,7 @@ body {
   min-height: 100%;
 }
 .sub_top{
-  text-align: center;
   width: 100%;
-  align-items: center;
 }
 .sub_top {
   animation-name: sub_top;
@@ -36,7 +34,8 @@ body {
   }
 }
 .ul-sobre1{
-  width: 20%;
+  margin-inline: auto;
+  width: 300px;
   background-color: aquamarine;
 }
 .sub_top1{
