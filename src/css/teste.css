@@ -1,3 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 :root {
   /* Cores Base*/
   --base-color: rgb(30, 0, 139);
@@ -5,11 +11,6 @@
   --base-border-button: rgb(32, 151, 32);
   --base-black: black;
   --base-white: white;
-}
-html {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  height: 100%;
-  min-height: 100%;
 }
 body {
   display: flex;
