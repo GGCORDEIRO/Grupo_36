@@ -103,7 +103,10 @@ h1 {
 input {
   padding: 5px;
 }
-footer {
+.footerinicio{
+  bottom: 0px;
+}
+footer, .footerinicio {
   position: absolute;
   width: 100%;
   flex-direction: column;
