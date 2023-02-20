@@ -135,9 +135,8 @@ footer {
   max-width: 95vw;
   display: flex;
   grid-column-gap: 0px;
-  max-width: 95vw;
   align-items: center;
-  text-align: center;
+  justify-content: center;
 }
 .container{
   width: 100%;
