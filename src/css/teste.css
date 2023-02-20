@@ -149,12 +149,10 @@ li {
   margin: 5px;
   list-style: none;
 }
-.div_ff{
-  margin-left: 50px;
-}
 .div_contatos{
   column-gap: 10%;
   text-align: initial;
+  width: 678px;
 }
 span._follow {
   text-align: center;
@@ -162,12 +160,12 @@ span._follow {
 .button_footer{
   border-radius: 15px;
   height: max-content;
-  line-height: 1;
   margin-top: 5px;
   padding: 5px 20px;
   width: 100%;
   line-height: 14px;
   background-color: blueviolet;
+  justify-content: space-around;
 }
 .sub_top2, .sub_top1, ul, .div_contatos{
   display: flex;
