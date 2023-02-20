@@ -43,8 +43,7 @@ header {
   }
 }
 .header-logo {
-  margin-right: 10%;
-  margin-left: -30%;
+  margin: 0 10%;
 }
 .ul-sobre{
   width: 30%;
