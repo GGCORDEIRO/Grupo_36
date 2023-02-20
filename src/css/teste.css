@@ -12,11 +12,6 @@
   --base-black: black;
   --base-white: white;
 }
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-}
 .sub_top{
   width: 100%;
 }
@@ -47,7 +42,6 @@ header {
   z-index: 1;
   background-color: var(--base-color);
   justify-content: center;
-  border-bottom: 1px solid var(--base-color-second);
   top: 0;
   left: 0;
   height: 100px;
@@ -129,6 +123,7 @@ input {
 footer {
   position: absolute;
   bottom: 0;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -155,12 +150,12 @@ footer {
   margin: auto;
 }
 .span_footer{
+  max-width: 95vw;
 display: flex;
-align-content: center;
-justify-content: space-between;
 -webkit-column-gap: 90px;
 -moz-column-gap: 90px;
-grid-column-gap: 90px;
+grid-column-gap: 50px;
+max-width: 95vw;
 column-gap: 90px;
 }
 .container{
