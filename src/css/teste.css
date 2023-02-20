@@ -133,7 +133,6 @@ footer {
   justify-content: center;
   min-height: 220px;
   grid-gap: 10px;
-  gap: 20px;
   background-color: var(--base-color);
   box-shadow: var(--base-black) 0em -1em 2em;
   border-radius: 10px 10px 0 0;
