@@ -30,7 +30,6 @@ header {
 }
 .ul-sobre1{
   margin-inline: auto;
-  width: 300px;
   background-color: aquamarine;
 }
 .sub_top1{
@@ -170,10 +169,7 @@ li {
   margin: 5px;
   list-style: none;
 }
-header,
-ul,
-footer,
-.footer-rede {
+.sub_top2, .sub_top1, ul {
   display: flex;
 }
 a {
