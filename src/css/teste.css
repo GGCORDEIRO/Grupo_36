@@ -57,8 +57,11 @@ header {
   margin: 0 0 0 15%;
   font-size: 20px;
 }
-main {
+.mainremoto, .mainddns{
   padding: 3%;
+}
+.maininicio{
+  padding: 0%;
 }
 .imgddns{
   width: 50%;
@@ -80,9 +83,6 @@ h1 {
 .conteudo-texto1 {
   width: 80%;
   margin-inline: auto;
-}
-.maintema {
-  margin-bottom: 100px;
 }
 .conteudo-texto1 h2 {
   font-size: 0.7rem;
