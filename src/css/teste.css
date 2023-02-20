@@ -132,11 +132,9 @@ footer {
   display: block;
 }
 .span_footer{
-  max-width: 95vw;
   display: flex;
   column-gap: 10%;
   align-items: center;
-  justify-content: center;
 }
 .container{
   width: 100%;
@@ -150,8 +148,12 @@ li {
   margin: 5px;
   list-style: none;
 }
+.div_ff{
+  margin-left: 50px;
+}
 .div_contatos{
   column-gap: 20px;
+  text-align: initial;
 }
 .sub_top2, .sub_top1, ul, .div_contatos{
   display: flex;
