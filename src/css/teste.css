@@ -150,7 +150,7 @@ li {
   margin: 5px;
   list-style: none;
 }
-.sub_top2, .sub_top1, ul {
+.sub_top2, .sub_top1, ul, .div_contatos{
   display: flex;
 }
 a {
