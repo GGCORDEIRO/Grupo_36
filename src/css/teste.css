@@ -19,6 +19,9 @@
 .sub_top1{
   background-color: blueviolet;
 }
+.sub_top2{
+  align-items: center;
+}
 header {
   z-index: 1;
   background-color: var(--base-color);
