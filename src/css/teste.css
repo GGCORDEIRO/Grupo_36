@@ -131,10 +131,9 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 300px;
-  grid-gap: 20px;
+  min-height: 220px;
+  grid-gap: 10px;
   gap: 20px;
-  height: 300px;
   background-color: var(--base-color);
   box-shadow: var(--base-black) 0em -1em 2em;
   border-radius: 10px 10px 0 0;
@@ -170,6 +169,7 @@ column-gap: 90px;
 ._informations {
   display: flex;
   justify-content: space-between;
+  padding: 0 30px;
 }
 li {
   margin: 5px;
