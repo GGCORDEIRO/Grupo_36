@@ -155,16 +155,18 @@ li {
   column-gap: 20px;
   text-align: initial;
 }
+span._follow {
+  text-align: center;
+}
 .button_footer{
   border-radius: 15px;
-  height: -moz-max-content;
   height: max-content;
-  font-size: 13px;
   line-height: 1;
-  margin-top: -5px;
+  margin-top: 5px;
   padding: 5px 20px;
   width: 100%;
   line-height: 14px;
+  background-color: blueviolet;
 }
 .sub_top2, .sub_top1, ul, .div_contatos{
   display: flex;
