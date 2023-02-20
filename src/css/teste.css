@@ -127,7 +127,8 @@ input {
   padding: 5px;
 }
 footer {
-  display: inline;
+  position: absolute;
+  bottom: 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
