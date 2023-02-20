@@ -12,29 +12,11 @@
   --base-black: black;
   --base-white: white;
 }
-header{
-  width: 100%;
-}
-header {
-  animation-name: sub_top;
-  animation-duration: 1s;
-  animation-iteration-count: inherit;
-}
-@keyframes sub_top {
-  0% {
-    transform: translateY(-120px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}
 .ul-sobre1{
   margin-inline: auto;
   background-color: aquamarine;
 }
 .sub_top1{
-  justify-content: center;
-  text-align: center;
   background-color: blueviolet;
 }
 header {
@@ -43,17 +25,16 @@ header {
   justify-content: center;
   top: 0;
   left: 0;
+  width: 100%;
   height: 100px;
   align-items: center;
   box-shadow: var(--base-black) 0em 1em 2em;
   border-radius: 0 0 10px 10px;
-}
-header {
-  animation-name: fundo;
+  animation-name: header;
   animation-duration: 1s;
   animation-iteration-count: inherit;
 }
-@keyframes fundo {
+@keyframes header {
   0% {
     transform: translateY(-120px);
   }
