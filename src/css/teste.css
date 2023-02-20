@@ -128,8 +128,8 @@ footer {
     transform: translateY(0px);
   }
 }
-.footer-direitos {
-  margin: auto;
+.ul-footer{
+  display: block;
 }
 .span_footer{
   max-width: 95vw;
