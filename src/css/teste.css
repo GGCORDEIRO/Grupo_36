@@ -244,13 +244,11 @@ a:hover,
   background-color: var(--base-color-second);
   -webkit-border-radius: 3px;
 }
+
 @import url(//fonts.googleapis.com/css?family=cairo:100);
-
-
 body {
   margin:0;
 }
-
 h1 {
   font-family: 'cairo', serif;
   font-weight:800;
@@ -283,8 +281,7 @@ p {
   font-size:14px;
   color: #333333;
 }
-
-.header {
+.header1 {
   position:relative;
   text-align:center;
   background: linear-gradient(130deg, blue 0%, blueviolet 100%);
@@ -297,14 +294,12 @@ p {
   display:inline-block;
   vertical-align: middle;
 }
-
 .inner-header {
   height:80vh;
   width:100%;
   margin: 0;
   padding: 0;
 }
-
 .flex { /*Flexbox for containers*/
   display: flex;
   justify-content: center;
@@ -312,7 +307,6 @@ p {
   flex-direction: column;
   text-align: center;
 }
-
 .waves {
   position:relative;
   width: 100%;
@@ -321,16 +315,13 @@ p {
   min-height:100px;
   max-height:150px;
 }
-
 .content {
   position:relative;
   height:20vh;
   text-align:center;
   background-color: white;
 }
-
 /* Animation */
-
 .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
 }
