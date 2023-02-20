@@ -12,10 +12,10 @@
   --base-black: black;
   --base-white: white;
 }
-.sub_top{
+header{
   width: 100%;
 }
-.sub_top {
+header {
   animation-name: sub_top;
   animation-duration: 1s;
   animation-iteration-count: inherit;
