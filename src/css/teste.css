@@ -134,7 +134,7 @@ footer {
 .span_footer{
   max-width: 95vw;
   display: flex;
-  column-gap: 15%;
+  column-gap: 10%;
   align-items: center;
   justify-content: center;
 }
@@ -149,6 +149,9 @@ footer {
 li {
   margin: 5px;
   list-style: none;
+}
+.div_contatos{
+  column-gap: 20px;
 }
 .sub_top2, .sub_top1, ul, .div_contatos{
   display: flex;
