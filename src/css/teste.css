@@ -244,3 +244,12 @@ a:hover,
   background-color: var(--base-color-second);
   -webkit-border-radius: 3px;
 }
+@media (max-width: 768px){
+  #body ._menu._mobile {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+}
