@@ -164,6 +164,9 @@ justify-content: space-between;
 grid-column-gap: 90px;
 column-gap: 90px;
 }
+.container{
+  width: 100%;
+}
 li {
   margin: 5px;
   list-style: none;
