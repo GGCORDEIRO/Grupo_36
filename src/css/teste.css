@@ -134,7 +134,7 @@ footer {
 .span_footer{
   max-width: 95vw;
   display: flex;
-  column-gap: 5%;
+  column-gap: 15%;
   align-items: center;
   justify-content: center;
 }
