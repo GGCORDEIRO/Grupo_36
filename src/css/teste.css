@@ -135,6 +135,7 @@ footer {
   display: flex;
   column-gap: 10%;
   align-items: center;
+  justify-content: center;
 }
 .container{
   width: 100%;
@@ -152,7 +153,7 @@ li {
   margin-left: 50px;
 }
 .div_contatos{
-  column-gap: 20px;
+  column-gap: 10%;
   text-align: initial;
 }
 span._follow {
