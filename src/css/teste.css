@@ -167,6 +167,10 @@ column-gap: 90px;
 .container{
   width: 100%;
 }
+._informations {
+  display: flex;
+  justify-content: space-between;
+}
 li {
   margin: 5px;
   list-style: none;
