@@ -244,6 +244,14 @@ a:hover,
   background-color: var(--base-color-second);
   -webkit-border-radius: 3px;
 }
+._menu_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 20px;
+  width: 30px;
+}
 @media (max-width: 768px){
   #body ._menu._mobile {
     display: flex;
