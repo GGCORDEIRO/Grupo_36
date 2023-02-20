@@ -132,12 +132,11 @@ footer {
 }
 .span_footer{
   max-width: 95vw;
-display: flex;
--webkit-column-gap: 90px;
--moz-column-gap: 90px;
-grid-column-gap: 50px;
-max-width: 95vw;
-column-gap: 90px;
+  display: flex;
+  grid-column-gap: 0px;
+  max-width: 95vw;
+  align-items: center;
+  text-align: center;
 }
 .container{
   width: 100%;
