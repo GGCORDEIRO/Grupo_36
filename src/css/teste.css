@@ -1,6 +1,10 @@
 *{
   margin: 0;
   padding: 0;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  font-size: 100%;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
