@@ -148,9 +148,9 @@ footer {
   width: 100%;
 }
 ._informations {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 45px;
+  display: grid;
+  /* justify-content: space-between; */
+  /* padding: 0 45px; */
 }
 li {
   margin: 5px;
