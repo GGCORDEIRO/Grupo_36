@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   outline: none;
@@ -30,6 +30,7 @@ img{
   justify-content: space-around;
 }
 header {
+  position: relative;
   z-index: 1;
   background-color: var(--base-color);
   justify-content: center;
@@ -368,6 +369,9 @@ p {
     font-size:24px;
   }
 }
-@media (max-width: 768px){
+@media screen and (min-width: 480px){
+  .logo{
+    width: 100%;
+  }
 
 }
