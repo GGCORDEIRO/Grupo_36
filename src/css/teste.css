@@ -65,6 +65,20 @@ header {
   margin-inline-start: 25px;
   margin-inline-end: 25px;
 }
+.ul-sobre {
+  width: 100%;
+  /* top: 100px; */
+  margin-top: 119px;
+  /* text-align: center; */
+  /* color: white !important; */
+}
+nav.header-text-nav {
+  position: fixed;
+  background: linear-gradient(88deg, black, #00000094);
+  width: 100%;
+  top: 0;
+  height: 100%;
+}
 .ul-sobre{
   width: 30%;
 }
