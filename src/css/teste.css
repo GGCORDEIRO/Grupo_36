@@ -61,9 +61,8 @@ header {
   padding: 10px;
   border-radius: 14px;
   background-color: blueviolet;
-  margin-inline: 25px;
-  margin-inline-start: 25px;
-  margin-inline-end: 25px;
+  margin-right: 25px;
+  margin-top: 10px;
 }
 .ul-sobre {
   width: 100%;
