@@ -176,7 +176,7 @@ span._follow {
   background-color: blueviolet;
 }
 a {
-  color: var(--base-black);
+  color: var(--base-black) !important;
   text-decoration: inherit;
 }
 @keyframes edu {
