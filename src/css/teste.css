@@ -18,11 +18,10 @@ img{
   --base-black: black;
   --base-white: white;
 }
-.ul-sobre1{
+.ul-sobre1 {
+  display: flex;
   margin-inline: auto;
-  background-color: aquamarine;
-}
-.sub_top1{
+  justify-content: space-evenly;
   background-color: blueviolet;
 }
 .sub_top2{
@@ -173,9 +172,6 @@ span._follow {
   width: 100%;
   line-height: 14px;
   background-color: blueviolet;
-}
-.sub_top2, .sub_top1, ul, .div_contatos{
-  display: flex;
 }
 a {
   color: var(--base-black);
