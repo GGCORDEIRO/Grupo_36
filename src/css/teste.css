@@ -369,11 +369,5 @@ p {
   }
 }
 @media (max-width: 768px){
-  #body ._menu._mobile {
-    display: flex;
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 9999;
-  }
+
 }
