@@ -54,6 +54,17 @@ header {
 .header-logo {
   margin: 0;
 }
+.svg_header {
+  width: 40px;
+  height: 44px;
+  float: right;
+  padding: 10px;
+  border-radius: 14px;
+  background-color: blueviolet;
+  margin-inline: 25px;
+  margin-inline-start: 25px;
+  margin-inline-end: 25px;
+}
 .ul-sobre{
   width: 30%;
 }
