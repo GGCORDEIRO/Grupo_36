@@ -11,22 +11,6 @@
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="/src/css/teste.css">
     <!--JS-->
-    <script type="text/javascript" src="/src/js/script.js">
-        const menuToggle = document.querySelector('.btn-menu');
-const menu = document.querySelector('.menu');
-
-menuToggle.addEventListener('click', () => {
-  menu.classList.toggle('open');
-});
-
-document.addEventListener('click', (event) => {
-  const isClickInside = menu.contains(event.target) || menuToggle.contains(event.target);
-  
-  if (!isClickInside && menu.classList.contains('open')) {
-    menu.classList.remove('open');
-  }
-});
-    </script>
     <!--Titulo-->
     <title>UNICON TESTE</title>
 </head>
@@ -139,5 +123,19 @@ document.addEventListener('click', (event) => {
        <a href="#" aria-current="page" class="">Desenvolvido por TI UNICON</a>
     </span>
 </footer>
+<script>const menuToggle = document.querySelector('.btn-menu');
+    const menu = document.querySelector('.menu');
+    
+    menuToggle.addEventListener('click', () => {
+      menu.classList.toggle('open');
+    });
+    
+    document.addEventListener('click', (event) => {
+      const isClickInside = menu.contains(event.target) || menuToggle.contains(event.target);
+      
+      if (!isClickInside && menu.classList.contains('open')) {
+        menu.classList.remove('open');
+      }
+    });</script>
 </body>
 </html>
