@@ -68,7 +68,7 @@ nav.header-text-nav {
   display: none;
 }
 nav.header-text-nav.menu.open {
-  display: inline-block;
+  display: block;
 }
 li.li-sobre {
   padding: 5px;
