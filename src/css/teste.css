@@ -64,20 +64,11 @@ header {
   margin-right: 25px;
   margin-top: 10px;
 }
-.ul-sobre {
-  width: 100%;
-  /* top: 100px; */
-  margin-top: 119px;
-  /* text-align: center; */
-  /* color: white !important; */
-}
 nav.header-text-nav {
   display: none;
-  position: fixed;
-  background: linear-gradient(88deg, black, #00000094);
-  width: 100%;
-  top: 0;
-  height: 100%;
+}
+nav.header-text-nav.menu.open {
+  display: block;
 }
 .ul-sobre{
   width: 30%;
