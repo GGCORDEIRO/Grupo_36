@@ -72,6 +72,15 @@ nav.header-text-nav.menu.open {
 }
 .ul-sobre{
   width: 30%;
+  text-align: initial;
+}
+li.li-sobre {
+  padding: 5px;
+  background: blueviolet;
+  border: solid white 1px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 2px;
 }
 .li-sobre {
   width: 100%;
