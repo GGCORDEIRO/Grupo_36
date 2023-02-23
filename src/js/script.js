@@ -1,13 +1,8 @@
 const menuToggle = document.querySelector('.btn-menu');
 const menu = document.querySelector('.menu');
 
-
 menuToggle.addEventListener('click', () => {
   menu.classList.toggle('open');
-});
-
-closeButton.addEventListener('click', () => {
-  menu.classList.remove('open');
 });
 
 document.addEventListener('click', (event) => {
