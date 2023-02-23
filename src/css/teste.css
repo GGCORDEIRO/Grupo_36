@@ -70,6 +70,10 @@ nav.header-text-nav {
 nav.header-text-nav.menu.open {
   display: block;
 }
+ul.ul-sobre {
+  max-width: 25%;
+  margin: auto;
+}
 li.li-sobre {
   padding: 5px;
   background: blueviolet;
