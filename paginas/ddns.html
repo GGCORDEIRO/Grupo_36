@@ -124,9 +124,12 @@
 </footer>
 <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script>
-    $(".btn-menu").click(function(){
-        $(".menu").show
-    });
+const menuToggle = document.querySelector('.btn-menu');
+const menu = document.querySelector('.menu');
+
+menuToggle.addEventListener('click', () => {
+  menu.classList.toggle('open');
+});
 </script>
 </body>
 </html>
