@@ -275,9 +275,6 @@ a:hover,
 }
 
 @import url(//fonts.googleapis.com/css?family=cairo:100);
-body {
-  margin:0;
-}
 h1 {
   font-family: 'cairo', serif;
   font-weight:800;
