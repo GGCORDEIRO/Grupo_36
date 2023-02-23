@@ -68,11 +68,7 @@ nav.header-text-nav {
   display: none;
 }
 nav.header-text-nav.menu.open {
-  display: block;
-}
-.ul-sobre{
-  width: 30%;
-  text-align: initial;
+  display: inline-block;
 }
 li.li-sobre {
   padding: 5px;
