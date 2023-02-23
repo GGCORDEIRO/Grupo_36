@@ -10,6 +10,8 @@
     <link rel="icon" type="image/x-icon" href="/src/imagens/favicon.ico">
     <!--CSS-->
     <link rel="stylesheet" type="text/css" href="/src/css/teste.css">
+    <!--JS-->
+    <link rel="stylesheet" type="text/css" href="/src/js/script.js">
     <!--Titulo-->
     <title>UNICON TESTE</title>
 </head>
@@ -61,8 +63,8 @@
             <p>A forma mais simples de acessar um computador remotamente é por meio de uma Rede Privada Virtual – VPN. Trata-se de uma ligação direta entre o computador que será acessado e o dispositivo que exibirá suas informações, que pode ser outro computador, um tablet, um smartphone, etc.</p>
         </main>
 
-   <!--Fim da Página-->
-   <footer>
+  <!--Fim da Página-->
+  <footer class="footerinicio">
     <span class="span_footer">
         <div class="div_ff">
             <a href="#" class="nome-logo-footer" title="unicon">
@@ -122,26 +124,5 @@
        <a href="#" aria-current="page" class="">Desenvolvido por TI UNICON</a>
     </span>
 </footer>
-<script>
-const menuToggle = document.querySelector('.btn-menu');
-const menu = document.querySelector('.menu');
-
-
-menuToggle.addEventListener('click', () => {
-  menu.classList.toggle('open');
-});
-
-closeButton.addEventListener('click', () => {
-  menu.classList.remove('open');
-});
-
-document.addEventListener('click', (event) => {
-  const isClickInside = menu.contains(event.target) || menuToggle.contains(event.target);
-  
-  if (!isClickInside && menu.classList.contains('open')) {
-    menu.classList.remove('open');
-  }
-});
-</script>
 </body>
 </html>
