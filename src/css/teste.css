@@ -53,6 +53,7 @@ header {
 }
 .header-logo {
   margin: 0;
+  text-align: center;
 }
 .svg_header {
   width: 40px;
@@ -71,14 +72,14 @@ nav.header-text-nav.menu.open {
   display: block;
 }
 ul.ul-sobre {
-  max-width: 25%;
+  max-width: 27%;
   margin: auto;
 }
 li.li-sobre {
   padding: 5px;
   background: blueviolet;
   border: solid white 1px;
-  border-radius: 20px;
+  border-radius: 20px 0 20px 0;
   text-align: center;
   margin: 2px;
 }
@@ -137,10 +138,6 @@ footer, .footerinicio {
   position: relative;
   width: 100%;
   bottom: 0px;
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
-  /* grid-gap: 10px; */
   background-color: var(--base-color);
   box-shadow: var(--base-black) 0em -1em 2em;
   border-radius: 10px 10px 0 0;
@@ -162,28 +159,15 @@ footer {
 .ul-footer{
   display: block;
 }
-.span_footer {
-  /* display: flex; */
-  /* column-gap: 10%; */
-  /* align-items: center; */
-  /* justify-content: space-around; */
-}
 .container{
   width: 100%;
 }
 ._informations {
   display: grid;
-  /* justify-content: space-between; */
-  /* padding: 0 45px; */
 }
 li {
   margin: 5px;
   list-style: none;
-}
-.div_contatos {
-  /* column-gap: 10%; */
-  /* text-align: initial; */
-  /* width: 678px; */
 }
 span._follow {
   text-align: center;
@@ -191,6 +175,7 @@ span._follow {
 .button_footer {
   width: 159px;
   margin: auto;
+  margin-bottom: 5px;
   justify-content: center;
   border-radius: 15px;
   height: max-content;
